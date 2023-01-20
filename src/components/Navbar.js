@@ -6,11 +6,14 @@ import styled from "@emotion/styled";
 import { jsx } from "@emotion/core";
 import { withTheme } from "emotion-theming";
 
+
+import Logo from "./Logo";
+import Icon from "./Icon";
+
 import { SIZES } from "../styles/constants";
 
-import Logo from "components/Logo"
-import Icon from "components/Icon"
 import { StyledLink } from "./elements";
+
 
 
 const Header = styled.div`

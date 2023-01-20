@@ -7,3 +7,4 @@ export const SIZES = {
     maxWidth: "600px",
     smallWidth: "300px",
   }
+  

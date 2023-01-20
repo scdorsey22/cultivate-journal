@@ -1,12 +1,22 @@
 import React from "react";
-import { Grid, Typography, TextField, FormControlLabel } from "@mui/material";
+import { Grid, Typography, TextField, FormControlLabel, Checkbox } from "@mui/material";
 
-const EntryForm = () => {
+export default function EntryForm() {
+    return (
     <React.Fragment>
-        <Typography variant="h6" gutterBottom>
-            Entry Form
-        </Typography>
+        <Grid container spacing={1}>
+            <TextField
+            required
+            id="entry form"
+            name="entry form"
+            label="Write your thoughts here..."
+            autoComplete="given-name"
+            fullWidth
+            variant="outlined"
+            multiline
+            rows={16}
+            /> 
+        </Grid>
     </React.Fragment>
-}
+    )}
 
-export default EntryForm
