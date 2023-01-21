@@ -6,7 +6,6 @@ export default function EntryForm() {
     <React.Fragment>
         <Grid container spacing={1}>
             <TextField
-            required
             id="entry form"
             name="entry form"
             label="Write your thoughts here..."

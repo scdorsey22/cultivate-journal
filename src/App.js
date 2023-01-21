@@ -9,13 +9,8 @@ function App() {
   return (
 
     <div>
-      {/* <header>
-        Cultivate JOURNAL
-      </header> */}
-      <div>
       <Journal />
       </div>
-    </div>
   );
 }
 
