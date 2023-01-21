@@ -1,4 +1,8 @@
-const theme = {
+import { createTheme } from "@mui/material"
+
+const theme = createTheme({
+
+
     LIGHT: {
       name: "LIGHT",
       colors: {
@@ -29,6 +33,6 @@ const theme = {
         button: "#464d5d",
       },
     },
-  }
+  })
   
   export default theme

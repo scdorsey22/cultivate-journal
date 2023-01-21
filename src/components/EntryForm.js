@@ -1,10 +1,10 @@
 import React from "react";
-import { Grid, Typography, TextField, FormControlLabel, Checkbox } from "@mui/material";
+import { Grid, Box, Toolbar, Typography, TextField, FormControlLabel, Checkbox } from "@mui/material";
 
 export default function EntryForm() {
     return (
     <React.Fragment>
-        <Grid container spacing={1}>
+        <Box component="main" sx={{ p: 1 }}>
             <TextField
             id="entry form"
             name="entry form"
@@ -15,7 +15,7 @@ export default function EntryForm() {
             multiline
             rows={16}
             /> 
-        </Grid>
+        </Box>
     </React.Fragment>
     )}
 
