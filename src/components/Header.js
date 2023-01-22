@@ -29,7 +29,7 @@ export default function Header() {
             </Typography>
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             <Link className='navBarLink' to="/">Journal</Link>
-            <Link className='navBarLink' to="*">Entries</Link>
+            <Link className='navBarLink' to="/entries">Entries</Link>
           </Box>
           </Toolbar>
         </AppBar>
